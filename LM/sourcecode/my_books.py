@@ -10,7 +10,7 @@ def show_user_books(user_name):
                 reader = csv.reader(library_file)
                 found = False
                 for row in reader:
-                    if row[3] == isbn:
+                    if row[4] == isbn:  # Check the 5th element (index 4) for ISBN
                         found = True
                         user_csv_file = os.path.join("Users", f"{user_name}.csv")
                         with open(user_csv_file, mode="a", newline='') as user_file:
