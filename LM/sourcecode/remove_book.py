@@ -35,7 +35,7 @@ def remove_book():
 
     remove_window = tk.Toplevel()
     remove_window.title("Remove Book")
-    remove_window.geometry("1024x768")  # Set window dimensions to 1024x768
+    remove_window.geometry("300x130")  # Set window dimensions to 400x300
     remove_window.resizable(False, False)  # Make the window size fixed
 
     title_label = tk.Label(remove_window, text="Enter Book Title:")
