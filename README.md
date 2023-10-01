@@ -54,7 +54,8 @@ In order to borrow or return a book, they must enter the ISBN of the book. (It's
 
 **V. Remove_book . py**
 	
- *Launches a window allowing the user to remove a book from the main database by entering the title of the book along with its ISBN
+ *Launches a window allowing the user to remove a book from the main database by entering the title of the book along with its ISBN*
+ 
 	(This script is connected to library.csv)*
 
 **VI. Search_book.py**
