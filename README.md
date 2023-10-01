@@ -24,9 +24,11 @@ Open folder Sourcecode:
 
 **II. Add_books . py**
 
-*Launches a window for the user to add books into the database.
-	Parameters/Fields to enter: Title, Author, Genre, Rating, ISBN
-	(This script is connected to library.csv)*
+*Launches a window for the user to add books into the database.*
+
+*Parameters/Fields to enter: Title, Author, Genre, Rating, ISBN*
+ 
+	(This script is connected to library.csv)
 
 **III. List_books . py**
 
