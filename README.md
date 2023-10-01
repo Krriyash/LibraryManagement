@@ -1,3 +1,6 @@
+
+						/// Designed and Programmed by Ria and Team ///
+
 *Open folder*
 
 **READMe . md** *is not entirely complete. Its complete functionality will be updated once the documentation is done.*
@@ -8,7 +11,8 @@
 
 *Open folder LM*
 
-LM.code-workspace: *Used to open the entire folder as a workspace in visual studio. Basically a setup feature to be able to open your code faster.*
+**LM.code-workspace:**
+*Used to open the entire folder as a workspace in visual studio. Basically a setup feature to be able to open your code faster.*
 	- How to use: *Left click and open with Visual Studio*
 
 Open folder Sourcecode:
@@ -19,35 +23,46 @@ Open folder Sourcecode:
 		- Acts as the parent window for your program.
 
 **II. Add_books . py**
-	*Launches a window for the user to add books into the database.
+
+*Launches a window for the user to add books into the database.
 	Parameters/Fields to enter: Title, Author, Genre, Rating, ISBN
 	(This script is connected to library.csv)*
 
 **III. List_books . py**
-	*Launches a window displaying all books to the user.
+
+*Launches a window displaying all books to the user.
 	Is in a list format on the left hand panel displaying titles
 	Once user clicks on a book, on the right hand panel it displays data related to the book.
 	(This script is connected to library.csv)*
 
 **IV. My_books . py**
-	*When user launches Main . py, on the bottom of the window a field is present to log in by entering a username.
-	Once a username is Input, the program will create a new csv database document file in the "Users" folder with the file name corresponding to the user's username.
-	If there already exists a csv file with the same username, the program will not create another one.
-	In this window the user can borrow or return or view the books borrowed by them currently.
-	In order to borrow or return a book, they must enter the ISBN of the book. (It's window is launched when the borrow or return button is engaged.)
+	
+ *When user launches Main . py, on the bottom of the window a field is present to log in by entering a username.
+	Once a username is Input, the program will create a new csv database document file in the "Users" folder with the file name corresponding to the user's username.*
+ 
+*If there already exists a csv file with the same username, the program will not create another one.*
+
+*In this window the user can borrow or return or view the books borrowed by them currently.
+In order to borrow or return a book, they must enter the ISBN of the book. (It's window is launched when the borrow or return button is engaged.)*
+
 	(This script is connected to library.csv)
-	(This script is connected to the corresponding csv file of the username in the "Users" folder.)*
+ 
+	(This script is connected to the corresponding csv file of the username in the "Users" folder.)
 
 **V. Remove_book . py**
-	*Launches a window allowing the user to remove a book from the main database by entering the title of the book along with its ISBN
+	
+ *Launches a window allowing the user to remove a book from the main database by entering the title of the book along with its ISBN
 	(This script is connected to library.csv)*
 
 **VI. Search_book.py**
-	*Launches a window allowing the user to search for any desired book based on the parameters of: Title, Author, Genre or Rating.
-	Any one of the fields can be entered, either the Title, or Author, or Genre, or rating and the respective results will be displayed.
-	If a user engages the search button without entering any parameter, the program will execute with it displaying all possible books.
-	The clear button is used to clear results.
-	(This script is connected to library.csv)*
+	
+ *Launches a window allowing the user to search for any desired book based on the parameters of: Title, Author, Genre or Rating.
+	Any one of the fields can be entered, either the Title, or Author, or Genre, or rating and the respective results will be displayed.*
+ 
+*If a user engages the search button without entering any parameter, the program will execute with it displaying all possible books.
+The clear button is used to clear results.*
+
+	(This script is connected to library.csv)
 
 **LIBRARY.CSV**
 
@@ -94,4 +109,4 @@ Open folder Sourcecode:
 
 *This READMe document can/will be further updated as needed.*
 
-								/// Designed and Programmed by Ria and Team ///
+						/// Designed and Programmed by Ria and Team ///
