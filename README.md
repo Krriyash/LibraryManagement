@@ -34,8 +34,9 @@ Open folder Sourcecode:
 
 *Launches a window displaying all books to the user.
 	Is in a list format on the left hand panel displaying titles
-	Once user clicks on a book, on the right hand panel it displays data related to the book.
-	(This script is connected to library.csv)*
+	Once user clicks on a book, on the right hand panel it displays data related to the book.*
+ 
+	(This script is connected to library.csv)
 
 **IV. My_books . py**
 	
